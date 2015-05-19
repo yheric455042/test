@@ -24,6 +24,7 @@ $json = json_decode(file_get_contents('href1.json'),true);
     link_name:<input type="text" name="name"value="<?php echo $json[$_GET["type"]]['data'][$_GET["index"]]['name']?>"><br>
     upload_file:<input type="file" name="file"><br>
     narrative:<br><textarea rows="5" cols="50" name="textarea"></textarea><br>
+	aavvssss
     <input type="submit" value="submit" name="submit">
     </form>
     </body>
